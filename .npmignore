@@ -1,0 +1,15 @@
+.babelrc
+.eslintrc
+.prettierrc
+.eslintignore
+.huskyrc.json
+.lintstagedrc.json
+*.config.ts
+tsconfig.json
+
+*.tgz
+
+.vscode
+node_modules
+example
+src
