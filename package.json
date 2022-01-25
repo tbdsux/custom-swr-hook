@@ -16,6 +16,7 @@
   "repository": "TheBoringDude/custom-swr-hook",
   "scripts": {
     "test": "jest",
+    "test:ci": "jest --ci --coverage --silent",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prepare": "husky install",
