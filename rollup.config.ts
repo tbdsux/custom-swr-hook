@@ -29,7 +29,9 @@ export default {
       file: packageJson.unpkg,
       format: 'umd',
       globals: {
-        react: 'React'
+        react: 'React',
+        'cross-fetch': 'fetch',
+        swr: 'useSWR'
       }
     }
   ],
@@ -50,5 +52,5 @@ export default {
     analyze(),
     sourceMaps()
   ],
-  external: ['react']
+  external: ['react', 'cross-fetch', 'swr']
 }
