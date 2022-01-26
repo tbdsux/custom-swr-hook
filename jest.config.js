@@ -2,5 +2,5 @@
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
-  modulePathIgnorePatterns: ['example', 'wrapper.tsx']
+  modulePathIgnorePatterns: ['wrapper.tsx']
 }

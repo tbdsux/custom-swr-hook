@@ -45,7 +45,10 @@ export default {
     typescript({
       useTsconfigDeclarationDir: true,
       rollupCommonJSResolveHack: false,
-      clean: true
+      clean: true,
+      tsconfigOverride: {
+        exclude: ['src/__tests__']
+      }
     }),
     analyze(),
     sourceMaps()

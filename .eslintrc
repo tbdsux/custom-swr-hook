@@ -12,14 +12,6 @@
     "browser": true,
     "es6": true
   },
-  "overrides": [
-    {
-      "files": ["*.ts", "*.tsx"],
-      "parserOptions": {
-        "project": ["./tsconfig.json"]
-      }
-    }
-  ],
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
