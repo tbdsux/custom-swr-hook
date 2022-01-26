@@ -1,3 +1,4 @@
-import HelloComponent from './component/simple'
+import CustomSWRProvider from './component/provider'
 
-export { HelloComponent }
+export * from './hooks'
+export { CustomSWRProvider }
